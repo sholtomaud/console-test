@@ -1,0 +1,112 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Arial';
+  background-color: 'white';
+}
+body {
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+a {
+  font-size: 12px;
+}
+.main {
+  border-right: 1px solid lightGray;
+  flex-grow: 2;
+}
+.main header {
+  font-size: 25px;
+}
+.main .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secondary {
+  padding: 20px;
+}
+.secondary .sub-header {
+  display: none;
+}
+.secondary .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secondary .content {
+  text-align: center;
+}
+.card {
+  display: flex;
+  margin: 15px;
+}
+.content {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+header {
+  font-size: 14px;
+}
+header .card {
+  font-size: 14px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.avatar {
+  background-color: CornflowerBlue;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.pied-piper {
+  content: url("./images/pied-piper.png");
+  width: 142px;
+  height: 142px;
+  display: block;
+}
+.child {
+  content: url("./images/person.png");
+}
+.paper-plane {
+  content: url("./images/plane.png");
+}
+.avatar .pied-pier:position: fixed {
+  width: 120px;
+  height: 120%;
+}

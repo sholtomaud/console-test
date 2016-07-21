@@ -1,0 +1,28 @@
+{
+  "name": "console-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "stylus -u nib -w stylus/index.styl -o ./styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotlom/console-test.git"
+  },
+  "keywords": [
+    "console",
+    "css"
+  ],
+  "author": "Sholto Maud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shotlom/console-test/issues"
+  },
+  "homepage": "https://github.com/shotlom/console-test#readme",
+  "devDependencies": {
+    "nib": "^1.1.0",
+    "stylus": "^0.54.5"
+  }
+}
